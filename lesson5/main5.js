@@ -7,7 +7,7 @@ function chessBoard() {
 
     for (var i = 0; i < 9; i++) {
         var tr = document.createElement('tr');
-        for (var j = 0; j < 8; j++) {
+        for (var j = 0; j < 9; j++) {
             var td = document.createElement('td');
             if (i == 8 && j > 0) {
                 td.className = 'coordinates';
