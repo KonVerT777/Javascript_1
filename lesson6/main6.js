@@ -21,7 +21,12 @@ for(var key in products) {
 }
 
 document.getElementById('catalog').innerHTML = catalog;
-document.querySelector('button').addEventListener('click', addToBasket);
+let toBasket = document.querySelectorAll('button');
+    toBasket.forEach(function(basketBtn) {
+        basketBtn.addEventListener('click', addToBasket);
+    }
+    )
+
 
 function addToBasket() {
     var articul = this.getAttribute('data-art');
