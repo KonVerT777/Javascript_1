@@ -1,0 +1,44 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    height: 35px;
+    width: 35px;
+}
+
+tr {
+    height: 35px;
+    width: 35px;
+}
+
+.coordinates {
+    text-align: center;
+}
+
+body > table > tr:nth-child(9) > td.white {
+    border: none;
+}
+
+.black {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.white {
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* table > tr:nth-child(1) > td:nth-child(2) {
+  
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.cart {
+    padding: 50px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
